@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "admin",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindconfig": "*"
+    "tailwindconfig": "*",
+    "ui1": "*"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -21,24 +22,15 @@
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "autoprefixer": "^10.4.15",
+    "config": "*",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "postcss": "^8.4.29",
+    "postcss": "^8.4.30",
     "tailwindcss": "^3.3.3",
+    "tsconfig": "*",
     "typescript": "^5.0.2",
+    "utils": "*",
     "vite": "^4.4.5"
-  },
-  "files": [
-      "dist"
-  ],
-  "main": "./components/index.tsx",
-  "types": "./components/index.tsx",
-  "module": "./dist/ui.es.js",
-  "exports": {
-      ".": {
-          "import": "./dist/ui.es.js",
-          "require": "./dist/ui.umd.js"
-      }
   }
 }
